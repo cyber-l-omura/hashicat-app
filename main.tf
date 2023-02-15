@@ -200,6 +200,6 @@ resource "aws_key_pair" "hashicat" {
 }
 
 module "s3-bucket" {
-  source  = "app.terraform.io/n-omura/s3-bucket/aws"
+  source  = "https://github.com/cyber-l-omura/terraform-aws-s3-bucket"
   version = "3.0.0"
 }
